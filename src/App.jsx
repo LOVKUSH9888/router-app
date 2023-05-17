@@ -12,6 +12,7 @@ import SingleProduct from './pages/SingleProduct.jsx'
 
 
 // import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
