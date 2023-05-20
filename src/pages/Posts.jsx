@@ -10,13 +10,14 @@ const Posts = () => {
 
 
   //for rendering giving the useEffect
-
+  //fetching data
   useEffect(() => {
     fetchPosts();
   }, []); //useEffect has = callback function + [Dependency]
 
 
   //Always use async await - as JS returns Promises
+  //Stored the fetched data into the state
   async function fetchPosts() {
     await fetch('https://jsonplaceholder.typicode.com/posts')
     .then(response => response.json())
@@ -43,7 +44,11 @@ const Posts = () => {
           </div>
         </div>
       </div>
+
+
       <div className="container content">
+
+      {/*Adding the Logic for the loader*/}
         {loader
           ? <div className="text-center">Loading...</div>
           : (

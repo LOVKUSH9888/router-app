@@ -7,7 +7,7 @@ const Header = () => {
         <div className="d-flex justify-content-between align-items-center">
           <div className="logo">
             <Link to="/" className="brand">
-              Lovkush
+              E-Shop
             </Link>
           </div>
 
