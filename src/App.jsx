@@ -11,7 +11,7 @@ import Posts from './pages/Posts.jsx'
 import SingleProduct from './pages/SingleProduct.jsx'
 
 
-// import './App.css'
+import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
