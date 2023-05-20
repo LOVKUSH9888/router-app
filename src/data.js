@@ -1,9 +1,25 @@
+import img1 from "./images/1.jpg"
+import img2 from "./images/2.jpg"
+import img3 from "./images/3.jpg"
+import img4 from "./images/4.jpg"
+import img5 from "./images/5.jpg"
+import img6 from "./images/6.jpg"
+import img7 from "./images/7.jpg"
+import img8 from "./images/8.jpg"
+import img9 from "./images/9.jpg"
+import img10 from "./images/10.jpg"
+import img11 from "./images/11.jpg"
+import img12 from "./images/12.jpg"
+import img13 from "./images/13.jpg"
+import img14 from "./images/14.jpg"
+import img15 from "./images/15.jpg"
+
 const PRODUCTS = [
   {
     id: 1,
     name: "Bluetooth & Wireless Over-Ear Headphones (Black)",
     price: "$12",
-    image: require("./images/1.jpg"),
+    image: img1,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
@@ -11,7 +27,7 @@ const PRODUCTS = [
     id: 2,
     name: "Apple iPhone 128GB",
     price: "$14",
-    image: require("./images/2.jpg"),
+    image: img2,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
@@ -19,7 +35,7 @@ const PRODUCTS = [
     id: 3,
     name: "Running Shoe Red & White",
     price: "$13.67",
-    image: require("./images/3.jpg"),
+    image: img3,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
@@ -27,7 +43,7 @@ const PRODUCTS = [
     id: 4,
     name: "Apple iPhone Blue 64GB",
     price: "$47.56",
-    image: require("./images/4.jpg"),
+    image: img4,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
@@ -35,7 +51,7 @@ const PRODUCTS = [
     id: 5,
     name: "Bluetooth Over-Ear Headphones (White)",
     price: "$53.06",
-    image: require("./images/5.jpg"),
+    image: img5,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
@@ -43,7 +59,7 @@ const PRODUCTS = [
     id: 6,
     name: "Logitech Gamepad White for PC/PS3",
     price: "$93.20",
-    image: require("./images/6.jpg"),
+    image: img6,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
@@ -51,7 +67,7 @@ const PRODUCTS = [
     id: 7,
     name: "Premium Smart Watch (Black)",
     price: "$25",
-    image: require("./images/7.jpg"),
+    image: img7,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
@@ -59,7 +75,7 @@ const PRODUCTS = [
     id: 8,
     name: "Multicolor Modern Shoe for Her",
     price: "$99.98",
-    image: require("./images/8.jpg"),
+    image: img8,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
@@ -67,7 +83,7 @@ const PRODUCTS = [
     id: 9,
     name: "Apple iPhone (Brand New)",
     price: "$87.22",
-    image: require("./images/9.jpg"),
+    image: img9,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
@@ -75,7 +91,7 @@ const PRODUCTS = [
     id: 10,
     name: "Smart Watch with Latest Android OS",
     price: "$11",
-    image: require("./images/10.jpg"),
+    image: img10,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
@@ -83,7 +99,7 @@ const PRODUCTS = [
     id: 11,
     name: "Modern & Original Eye Glasses",
     price: "$69",
-    image: require("./images/11.jpg"),
+    image: img11,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
@@ -91,7 +107,7 @@ const PRODUCTS = [
     id: 12,
     name: "Nikon Camera (Slightly Used) 750",
     price: "$33",
-    image: require("./images/12.jpg"),
+    image: img12,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
@@ -99,7 +115,7 @@ const PRODUCTS = [
     id: 13,
     name: "Red & Black Ganming Mouse for PC",
     price: "$99",
-    image: require("./images/13.jpg"),
+    image: img13,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
@@ -107,7 +123,7 @@ const PRODUCTS = [
     id: 14,
     name: "Multi Purpose College Bag Backpack",
     price: "$44",
-    image: require("./images/14.jpg"),
+    image: img14,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
@@ -115,7 +131,7 @@ const PRODUCTS = [
     id: 15,
     name: "White & Black Watch Concept",
     price: "$22.22",
-    image: require("./images/15.jpg"),
+    image: img15,
     details:
       "Quos, non, esse eligendi ab accusantium voluptatem. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.",
   },
