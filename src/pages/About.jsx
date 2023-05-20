@@ -1,5 +1,6 @@
 const About = () => {
   return (
+
     <main className="about">
       <div className="pg-header">
         <div className="container">
@@ -23,6 +24,7 @@ const About = () => {
         </div>
       </div>
     </main>
+
   )
 }
 
