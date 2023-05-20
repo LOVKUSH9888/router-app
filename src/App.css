@@ -6,6 +6,108 @@ a {
   text-decoration: none;
 }
 
+/* HEADER ////////////////////////////////////////////////////////////// */
+
+header {
+	padding: 20px 0;
+	background-color: #000;
+}
+
+header .logo {
+	transform: rotate(-6deg);
+	transition: all 0.3s ease;
+}
+
+header .logo:hover {
+	transform: rotate(0deg);
+}
+
+header .brand {
+	font-size: 30px;
+	color: #fff;
+	font-weight: 700;
+	font-family: 'Leckerli One', cursive;
+	background-color: #2d2d2d;
+	border-radius: 40px;
+	border-bottom: 2px solid #6294de;
+	text-shadow: 2px 2px 0px #000;
+}
+
+header .nav-link {
+	font-weight: 700;
+	color: #999;
+	border-radius: 0;
+	font-size: 14px;
+}
+
+header .nav-link:hover {
+	color: #fff;
+}
+
+
+/*Home*/
+
 main {
   background-color: #fff
+}
+
+main .content {
+  padding-top:40px;
+  padding-bottom: 40px;
+}
+
+main .pg-header{
+  padding: 60px 0;
+}
+
+main .pg-header h1 {
+  color: #333;
+  font-weight: 600;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.btn-primary {
+  border-radius: 0;
+}
+
+.breadcrumb {
+  margin-bottom: 0;
+}
+
+/* FOOTER ////////////////////////////////////////////////////////////// */
+
+footer {
+	padding: 40px 0 100px 0;
+}
+
+footer .nav-link {
+	color: rgba(255, 255, 255, 0.75);
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 10px;
+}
+
+footer .nav-link:hover {
+	color: #fff;
+}
+
+footer .nav-link.active {
+	color: #fff;
+	border-bottom: 1px solid #666;
+}
+
+footer .copyrights {
+	color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+	margin-top: 10px;
+}
+
+footer .copyrights a {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+footer .copyrights a:hover {
+	color: #fff;
 }
