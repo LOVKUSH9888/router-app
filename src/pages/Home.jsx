@@ -1,9 +1,7 @@
-
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
   return (
-
     <main>
       <div className="pg-header">
         <div className="container">
@@ -11,12 +9,38 @@ const Home = () => {
         </div>
       </div>
       <div className="container content">
-      <p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum molestias quo. Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut. Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum molestias quo. Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.</p>
-      <p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum molestias quo. Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut. Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum molestias quo. Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.</p>
+        <p>
+          At our store, we strive to offer a wide range of high-quality products
+          to cater to your needs. Whether you're looking for fashion,
+          electronics, home decor, or more, we have something for everyone.
+          Customer service is at the heart of everything we do. If you have any
+          questions, concerns, or feedback, our friendly and knowledgeable
+          support team is here to assist you. We want to make sure your shopping
+          experience is seamless and enjoyable from start to finish.
+          At our store, we strive to offer a wide range of high-quality products
+          to cater to your needs.
+        </p>
+        <p>
+          Our team is dedicated to ensuring your satisfaction. We carefully
+          curate our products to ensure they meet our quality standards, and we
+          constantly update our inventory to bring you the latest trends and
+          innovations.Thank you for choosing our e-commerce store. We appreciate
+          your trust and look forward to serving you. Happy shopping!
+          Our team is dedicated to ensuring your satisfaction. We carefully
+          curate our products to ensure they meet our quality standards, and we
+          constantly update our inventory to bring you the latest trends and
+          innovations.Thank you for choosing our e-commerce store. We appreciate
+          your trust and look forward to serving you. Happy shopping!
+          Our team is dedicated to ensuring your satisfaction. We carefully
+          curate our products to ensure they meet our quality standards, and we
+          constantly update our inventory to bring you the latest trends and
+          innovations.Thank you for choosing our e-commerce store. We appreciate
+          your trust and look forward to serving you. Happy shopping!
+          Our team is dedicated to ensuring your satisfaction.
+        </p>
       </div>
     </main>
-  
-  )
-}
+  );
+};
 
 export default Home;

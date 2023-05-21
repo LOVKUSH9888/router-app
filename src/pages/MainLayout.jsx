@@ -6,7 +6,9 @@ import Footer from "../components/Footer.jsx"
 const MainLayout = () => {
   return (
     <>
-      
+      <Header/>
+      <Outlet/>
+      <Footer/>
     </>
   )
 }
